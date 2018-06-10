@@ -1,0 +1,74 @@
+.AccountSummary {
+  text-align: center;
+  width: 100%;
+  height: 90px;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  border: solid 1px #ebebeb;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.AccountSummary .container {
+  width: 1250px;
+  display: flex;
+}
+
+.AccountSummary div h3, .AccountSummary div p {
+  margin: 0;
+}
+
+.AccountSummary .total-value {
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 12px 0 9px 21px;
+  z-index: 1;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 0 2px 0 rgba(0, 0, 0, 0.14);
+  border: solid 1px #ebebeb;
+}
+
+.AccountSummary .total-value h3 {
+  color: #3e3e3e;
+}
+
+.AccountSummary .total-value p {
+  color: #0477c0;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.AccountSummary .other-value {
+  max-width: 128px;
+}
+
+.AccountSummary .other-value {
+  padding: 15px 10px;
+}
+
+.AccountSummary .other-value h3 {
+  font-size: 14px;
+}
+
+.AccountSummary .other-value p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.AccountSummary .green-ammount {
+  color: #48b83b;
+}
+
+.AccountSummary .plus {
+  margin-top: 25px;
+}
+
+.AccountSummary a {
+  font-size: 14px;
+  color: #ff5a60;
+}
+
+@media only screen and (min-width: 1480px) {
+  .AccountSummary {
+    overflow: hidden;
+  }
+}

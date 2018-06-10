@@ -1,0 +1,7 @@
+/node_modules
+/logs
+/.vscode
+*.swp
+*.log
+.DS_Store
+.project

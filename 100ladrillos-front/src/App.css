@@ -1,0 +1,38 @@
+.App {
+  margin-left: 126px;
+  padding: 26px 51px;
+}
+
+.App h2 {
+  font-size: 24px;
+  color: #3e3e3e;
+}
+
+.App h3 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #3e3e3e;
+}
+
+.App button {
+  width: 170px;
+  height: 40px;
+  border-radius: 24px;
+  background-color: #ff5a60;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.plus {
+  width: 39px;
+  height: 39px;
+  opacity: 0.16;
+  background-color: #000000;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.plus::after {
+  content: '+';
+}

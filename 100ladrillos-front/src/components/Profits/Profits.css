@@ -1,0 +1,66 @@
+.Profit {
+  display: flex;
+}
+.Profit-summary {
+  text-align: center;
+  width: 204px;
+  height: 459px;
+  border-radius: 8px;
+  background-color: #fefefe;
+  border: solid 1px #e3e3e3;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.Profit-chart-container {
+  width: 100%;
+  height: 459px;
+  background-color: #ffffff;
+  border: solid 1px #e3e3e3;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.ProfitValue.heading {
+  padding: 20px 0;
+}
+
+.ProfitValue {
+  padding: 10px 0;
+  display: flex;
+}
+
+.ProfitValue img {
+  margin-left: 10px;
+}
+
+.ProfitValue .values {
+  flex-grow: 1;
+}
+
+.ProfitValue h3, .ProfitValue p {
+  margin: 0;
+}
+
+.Profit .ProfitValue.heading h3 {
+  font-size: 24px;
+}
+
+.Profit .ProfitValue.heading p {
+  font-size: 25px;
+}
+
+.Profit .ProfitValue h3 {
+  font-size: 14px;
+}
+
+.Profit .ProfitValue p {
+  font-size: 18px;
+}
+
+.Profit .Profit-summary .plus {
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  font-size: 17px;
+}

@@ -1,0 +1,8 @@
+.AccountTitle {
+  display: flex;
+  align-items: baseline;
+}
+
+.AccountTitle h2, .AccountTitle h3 {
+  flex-grow: 1;
+}
